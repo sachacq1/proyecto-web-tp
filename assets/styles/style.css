@@ -6,8 +6,8 @@
 :root {
     --primary-color: #d5a7a7;
     --secondary-color: #cbd0b9;
-
-
+    --body-fonts: "Briem Hand", cursive;
+    --body-secondary-fonts: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
@@ -38,6 +38,8 @@ nav ul li a:hover {
     color: var(--secondary-color);
 }
 
+
+
 .banner {
     background-color: var(--primary-color);
     min-height: 100vh;
@@ -62,9 +64,14 @@ nav ul li a:hover {
 .banner div h1 {
     font-size: 60px;
     color: black;
+    font-family: var(--body-fonts);
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
 }
 
 .banner div p {
     font-size: 18px;
     color: var(--secondary-color);
+    font-family: var(--body-secondary-fonts);
 }
