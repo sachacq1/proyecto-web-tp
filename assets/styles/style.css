@@ -33,7 +33,7 @@ nav ul li a {
     text-decoration: none;
     color: azure;
     font-family: var(--body-secondary-fonts);
-    font-weight: 580;
+    font-weight: 550;
 }
 
 nav ul li a:hover {
